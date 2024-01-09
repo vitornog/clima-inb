@@ -1,0 +1,81 @@
+<style>
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    .conteudo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 100vh;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    #ww_514497dc914e1 {
+        max-width: unset !important;
+        width: 100vw !important;
+        height: 100vh !important;
+    }
+
+    [class$="box"] {
+        position: relative !important;
+        width: 50% !important;
+        height: 180px !important;
+        display: inline-block !important;
+        top: calc(50vh / 2 - 30px) !important;
+    }
+
+    [class$="name"] {
+        zoom: 3;
+    }
+
+    [class$="temp"] {
+        zoom: 3 !important;
+    }
+
+    [class$="icon"] {
+        zoom: 3;
+    }
+
+    [class$="cond"] {
+        zoom: 3;
+        text-align: center;
+        width: min-content;
+        white-space: break-space;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    [class$="additional"] {
+        zoom: 2;
+    }
+
+    [class*="arr"] {
+       display: none !important;
+    }
+    
+    #ww_514497dc914e1 .ww_hour{
+        margin-right: 30px !important;
+    }
+
+    [class$="line"]:has([class$="hour"]) div:nth-child(-n+7) {
+        zoom: 1.25 !important; 
+    }
+
+    [class$="line"]:has([class$="hour"]) div:nth-child(n+7) {
+        display: none !important; 
+    }
+    
+</style>
+
+<div class="conteudo">
+    <div id="ww_514497dc914e1" v='1.3' loc='id'
+        a='{"t":"horizontal","lang":"pt","sl_lpl":1,"ids":["wl5070"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"image","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722"}'>
+        Mais previsões: <a href="https://oneweather.org/sao_paulo/30_days/" id="ww_514497dc914e1_u"
+            target="_blank">Weather forecast Sao Paulo 30 days</a></div>
+</div>
+<script async src="https://app2.weatherwidget.org/js/?id=ww_514497dc914e1"></script>
